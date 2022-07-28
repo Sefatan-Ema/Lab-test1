@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet " href="style.css">
+    <style>
+        h1 {
+            max-width: 95%;
+            text-align: center;
+            text-transform: capitalize;
+            padding: 12px;
+        }
+        
+        form {
+            background-color: rgb(224, 221, 221);
+            height: 450px;
+            width: 50%;
+            padding: 10px;
+            margin: 32px 32px;
+        }
+        
+        span {
+            display: inline-block;
+            margin-left: 94px;
+        }
+        
+        label {
+            padding-right: 50px;
+        }
+        
+        .zero {
+            height: 42px;
+            border: 1px solid rgb(105, 98, 98);
+            font-size: 18px;
+            padding: 2px 4px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        input[type="mail"]:focus {
+            border: 5px solid rgb(134, 134, 228);
+        }
+        
+        input[type="password"]:focus {
+            border: 5px solid rgb(134, 134, 228);
+        }
+        
+        input[type="radio"] {
+            margin-left: 7px;
+        }
+        
+        input[type="password"] {
+            margin-left: 8px;
+        }
+        
+        input[type="mail"] {
+            margin-left: 38px;
+        }
+        
+        input[type="submit"] {
+            background-color: rgb(171 162 148);
+            font-size: 20px;
+            margin-left: 196px;
+            padding-left: 3px;
+        }
+        
+        input[type=submit]:hover {
+            background-color: rgb(83, 65, 163);
+            color: white
+        }
+        
+        form a {
+            padding: 4px;
+            color: aliceblue;
+            background-color: rgb(83, 65, 163);
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        a:hover {
+            color: rgb(201, 191, 243);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="  size clear">
+
+        <div class="logo  clear"><img src="img/fb.png">
+
+
+        </div>
+        <div class="title clear">
+            <h2>MY WEBSITE</h2>
+        </div>
+        <div class="date clear">
+            </p>Sunday, 14 Feb 2016</p>
+            <input type="txt" placeholder="Search here">
+        </div>
+    </header>
+
+    <div class="link size clear">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Form.html">Form</a></li>
+            <li><a href="Table.html">Table</a></li>
+            <li><a href="Newsportal.html">News Portal</a></li>
+            <li><a href="Image.html">Image</a></li>
+            <li>
+                <a href="Contact.html ">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <div class="login size clear">
+        <form class=" clear">
+            <h1>Registration Form</h1>
+            <label> First Name</label>
+            <input class="zero" type="text" placeholder="first name"><br><br>
+            <label> Last Name</label>
+            <input class="zero" type="text" placeholder="last name"><br><br>
+            <label> Email</label>
+            <input class="zero" type="mail" placeholder="email"><br><br>
+            <label>Password</label>
+            <input class="zero" type="password" placeholder="password" required><br><br>
+            <label>Gender</label>
+            <input type="radio" name="n">Male
+
+            <input type="radio" name="n">Female
+            <br><br>
+            <label>Division</label>
+            <select class="zero">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Barishal">Barishal</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Chattogram">Chattogram</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Mymensingh">Mymensingh</option>
+                <option value="Rangpur">Rangpur</option>
+            </select><br>
+            <br>
+
+            <input type="submit" value="submit">
+
+
+
+
+        </form>
+
+    </div>
+</body>
+
+
+</html>
